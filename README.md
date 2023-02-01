@@ -1,12 +1,12 @@
-# LAB - Class 31
+# LAB - Class 313
 
-## Project: Books API
+## Project: Books API w/ JWT
 
 ### Author: Harper Foley
 
 ### Links and Resources
 
-* [Repo](https://github.com/hfoley2013/django_books_api)
+* [Repo](https://github.com/hfoley2013/drf-auth)
 * [Django REST Framework](https://www.django-rest-framework.org/)
 
 #### Setup
@@ -14,7 +14,7 @@
 * Create a new project folder on your local machine
   * `mkdir new_project && cd new_project`
 * Clone the repo into your new folder
-  * `git clone https://github.com/hfoley2013/django_books_api.git`
+  * `git clone https://github.com/hfoley2013/drf-auth.git`
 * Create a virtual environment to hold the project requirements
   * `python -m venv .venv`
 * Install the `requirements.txt` file
