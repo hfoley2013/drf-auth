@@ -9,6 +9,6 @@ class BookSerializer(serializers.ModelSerializer):
     # Defines an inner class, Meta, which is used to specify metadata about the serializer class.
     class Meta:
         # Specifies the fields from the Book model that should be included in the serialized representation.
-        fields = ('id', 'book_owner', 'isbn', 'title', 'author', 'genre', 'summary', 'notes', 'date_read', 'entry_updated_at')
+        fields = ('id', 'owner', 'isbn', 'title', 'author', 'genre', 'summary', 'notes', 'date_read', 'entry_updated_at')
         # Specifies the model that the serializer should use to generate the serialized representation. This is the Book model that we imported earlier.
         model = Book
